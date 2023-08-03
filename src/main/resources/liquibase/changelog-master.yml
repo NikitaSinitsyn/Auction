@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/changesets/changelog-tables.sql
+
+  - include:
+      file: liquibase/changesets/changelog-fulfill_tables.sql
+
